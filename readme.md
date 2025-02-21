@@ -1,130 +1,113 @@
 # 🌊 Marine Ecosystem Guardian
 
-## Overview
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://marine-ecosystem-guardian-5tkardpcbj2u2lk4m589gv.streamlit.app/)
 
-Marine Ecosystem Guardian is an advanced Streamlit application designed to provide comprehensive environmental monitoring and analysis for marine ecosystems. Leveraging sophisticated machine learning models and data visualization techniques, this tool offers critical insights into marine environmental challenges, helping researchers, conservationists, and policymakers make informed decisions.
+A comprehensive marine ecosystem analysis tool that helps monitor and protect our oceans through advanced visualization and analysis techniques.
 
-## 🚀 Key Features
+## 🎯 Overview
 
-### 1. Plastic Waste Impact Analysis
-- Detailed breakdown of plastic waste types
-- Ecological impact scoring
-- Visualization of plastic distribution
-- Actionable recommendations for waste reduction
+Marine Ecosystem Guardian is an interactive web application that provides real-time analysis and insights into various aspects of marine ecosystem health. The platform combines data visualization with environmental science to offer actionable insights for marine conservation.
 
-### 2. Coral Reef Health Monitoring
-- Comprehensive coral health status assessment
-- Recovery potential analysis
-- Visualization of coral health distribution
-- Identification of environmental stress factors
+## ✨ Features
 
-### 3. Oil Spill Detection and Impact Assessment
-- Multi-level oil spill severity detection
-- Ecological impact scoring
-- Visualization of spill severity distribution
-- Potential ecological consequence analysis
+### Marine Ecosystem Health
+- Water quality analysis
+- Species diversity monitoring
+- Ecosystem trend tracking
+- Conservation recommendations
 
-### 4. Harmful Algal Bloom (HAB) Risk Assessment
-- Interactive environmental factor inputs
-- Dynamic risk scoring
-- Risk category determination
-- Visualization of HAB risk factors
-- Ecological consequence analysis
+### Plastic Waste Analysis
+- Distribution analysis
+- Impact assessment
+- Environmental scoring
+- Mitigation strategies
 
-## 🛠️ Technologies Used
+### Coral Reef Assessment
+- Health status monitoring
+- Recovery potential evaluation
+- Stress factor identification
+- Protection measures
 
-- **Python**: Primary programming language
-- **Streamlit**: Web application framework
-- **NumPy**: Numerical computing
-- **Pandas**: Data manipulation
-- **Matplotlib**: Static visualization
-- **Seaborn**: Statistical data visualization
-- **OpenCV**: Image processing
-- **Pillow (PIL)**: Image handling
+### Oil Spill Detection
+- Severity analysis
+- Impact visualization
+- Environmental risk assessment
+- Response recommendations
 
-## 🔬 Machine Learning Approach
+## 🛠️ Built With
 
-The application utilizes simulated pre-trained models for:
-- Plastic detection
-- Coral health assessment
-- Oil spill detection
-- Harmful Algal Bloom prediction
-
-Each model provides:
-- Detection probabilities
-- Ecological impact scores
-- Risk assessments
-
-## 🖼️ User Interface
-
-- Wide-layout Streamlit interface
-- Interactive analysis type selection
-- File upload for image-based analyses
-- Dynamic visualizations
-- Comprehensive result reporting
+- [Streamlit](https://streamlit.io/) - Web framework
+- [Python](https://www.python.org/) - Backend
+- [Matplotlib](https://matplotlib.org/) - Data visualization
+- [OpenCV](https://opencv.org/) - Image processing
+- [Pillow](https://python-pillow.org/) - Image handling
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- Streamlit
-- Required Python libraries (see requirements.txt)
+
+- Python 3.9+
+- pip package manager
 
 ### Installation
 
 1. Clone the repository
-```bash
+```
 git clone https://github.com/yourusername/marine-ecosystem-guardian.git
-cd marine-ecosystem-guardian
 ```
 
-2. Install required dependencies
-```bash
+2. Install dependencies
+```
 pip install -r requirements.txt
 ```
 
 3. Run the application
-```bash
-streamlit run marine_ecosystem_guardian.py
+```
+streamlit run app.py
 ```
 
-## 📊 Usage Guide
 
-1. Select an analysis type:
-   - Plastic Waste Impact
-   - Coral Reef Health
-   - Oil Spill Detection
-   - Harmful Algal Bloom Risk
+## 📊 Usage
 
-2. For image-based analyses:
-   - Upload a relevant image
-   - View detailed analysis and visualizations
+1. Visit the [live application](https://marine-ecosystem-guardian-5tkardpcbj2u2lk4m589gv.streamlit.app/)
+2. Choose an analysis type from the navigation menu
+3. Follow the interactive guides for each analysis
+4. Review visualizations and recommendations
 
-3. For HAB Risk Assessment:
-   - Adjust environmental factor sliders
-   - Observe real-time risk assessment
+## 📚 Educational Resources
 
-## 🌍 Environmental Impact
+The application includes:
+- Curated documentaries
+- Scientific articles
+- Educational blogs
+- Conservation guidelines
+
+## 🌱 Environmental Impact
 
 This tool aims to:
-- Enhance marine ecosystem monitoring
-- Support conservation efforts
+- Raise awareness about marine conservation
 - Provide data-driven environmental insights
-- Facilitate informed decision-making
+- Support informed decision-making
+- Encourage community participation
 
-## 🔮 Future Enhancements
+## 🔜 Future Development
 
-- Integration with real-time satellite imagery
-- Advanced machine learning model training
-- Expanded environmental factor analysis
-- Global marine ecosystem database
+- Real-time data integration
+- Advanced ML model implementation
+- Mobile application development
+- Global ecosystem database
 
-## 🏆 Acknowledgements
+## 🤝 Contributing
 
-- Marine research institutions
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+## 🙏 Acknowledgments
+
 - Environmental conservation organizations
-- Open-source community
+- Marine research institutions
+- Open-source community contributors
 
 ---
 
-**Disclaimer**: This is a simulation-based tool. Always consult professional environmental experts for critical assessments.
+**Note**: This is a simulation-based educational tool. For critical environmental assessments, please consult professional marine scientists.
